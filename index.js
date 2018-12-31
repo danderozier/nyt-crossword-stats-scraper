@@ -29,7 +29,7 @@ const colors = require('colors'),
 // Set range
 const range = {
   start: moment(args['start']),
-  end: (args['end'] ? moment(args['end'] : moment())
+  end: (args['end'] ? moment(args['end']) : moment())
 }
 
 /**
