@@ -4,7 +4,7 @@ Scrape your NYT crossword puzzle times into a CSV.
 
 ## Usage
 
-`node index.js --key <jwt key> --start 2018-01-01 --out 2018-12-31 --out output.csv`
+`node index.js --key <jwt key> --start 2018-01-01 --end 2018-12-31 --out output.csv`
 
 **--key**
 
